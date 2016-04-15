@@ -16,6 +16,7 @@
 		E93EC2551CC11E3300B8A64E /* iTunesMusicSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93EC2541CC11E3300B8A64E /* iTunesMusicSearchTests.swift */; };
 		E93EC2601CC11E3300B8A64E /* iTunesMusicSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93EC25F1CC11E3300B8A64E /* iTunesMusicSearchUITests.swift */; };
 		E93EC26E1CC11E6E00B8A64E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E93EC26D1CC11E6E00B8A64E /* Podfile */; };
+		E93EC2711CC11F4200B8A64E /* iTunesMusicSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EC2701CC11F4200B8A64E /* iTunesMusicSearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E93EC25F1CC11E3300B8A64E /* iTunesMusicSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicSearchUITests.swift; sourceTree = "<group>"; };
 		E93EC2611CC11E3300B8A64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93EC26D1CC11E6E00B8A64E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E93EC26F1CC11F4100B8A64E /* iTunesMusicSearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesMusicSearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		E93EC2701CC11F4200B8A64E /* iTunesMusicSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesMusicSearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				E93EC2461CC11E3300B8A64E /* Assets.xcassets */,
 				E93EC2481CC11E3300B8A64E /* LaunchScreen.storyboard */,
 				E93EC24B1CC11E3300B8A64E /* Info.plist */,
+				E93EC2701CC11F4200B8A64E /* iTunesMusicSearch.m */,
+				E93EC26F1CC11F4100B8A64E /* iTunesMusicSearch-Bridging-Header.h */,
 			);
 			path = iTunesMusicSearch;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93EC2711CC11F4200B8A64E /* iTunesMusicSearch.m in Sources */,
 				E93EC2421CC11E3300B8A64E /* ViewController.swift in Sources */,
 				E93EC2401CC11E3300B8A64E /* AppDelegate.swift in Sources */,
 			);
@@ -477,10 +483,13 @@
 			baseConfigurationReference = A6DA2112E43FD60A0FDF5C21 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iTunesMusicSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.koheitakata.iTunesMusicSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTunesMusicSearch/iTunesMusicSearch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -489,10 +498,12 @@
 			baseConfigurationReference = CFFDE17BF232D6E3918081CD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iTunesMusicSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.koheitakata.iTunesMusicSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTunesMusicSearch/iTunesMusicSearch-Bridging-Header.h";
 			};
 			name = Release;
 		};
