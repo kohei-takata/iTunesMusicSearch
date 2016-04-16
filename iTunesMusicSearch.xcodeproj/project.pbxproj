@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5582BCEA1CC1FFF600E8AE2B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582BCE91CC1FFF600E8AE2B /* ListViewController.swift */; };
+		5582BCEE1CC20D3400E8AE2B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582BCED1CC20D3400E8AE2B /* ListCell.swift */; };
+		5582BCF01CC21A4500E8AE2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582BCEF1CC21A4500E8AE2B /* DetailViewController.swift */; };
 		A473C0F9BBEFECBCA03A922F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CC08F6867943C42102546B /* libPods.a */; };
 		E93EC2401CC11E3300B8A64E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93EC23F1CC11E3300B8A64E /* AppDelegate.swift */; };
 		E93EC2421CC11E3300B8A64E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93EC2411CC11E3300B8A64E /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5582BCE91CC1FFF600E8AE2B /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5582BCED1CC20D3400E8AE2B /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		5582BCEF1CC21A4500E8AE2B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		99CC08F6867943C42102546B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DA2112E43FD60A0FDF5C21 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CFFDE17BF232D6E3918081CD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +133,7 @@
 		E93EC23E1CC11E3300B8A64E /* iTunesMusicSearch */ = {
 			isa = PBXGroup;
 			children = (
+				5582BCED1CC20D3400E8AE2B /* ListCell.swift */,
 				E93EC23F1CC11E3300B8A64E /* AppDelegate.swift */,
 				E93EC2411CC11E3300B8A64E /* ViewController.swift */,
 				E93EC2431CC11E3300B8A64E /* Main.storyboard */,
@@ -135,6 +142,8 @@
 				E93EC24B1CC11E3300B8A64E /* Info.plist */,
 				E93EC2701CC11F4200B8A64E /* iTunesMusicSearch.m */,
 				E93EC26F1CC11F4100B8A64E /* iTunesMusicSearch-Bridging-Header.h */,
+				5582BCE91CC1FFF600E8AE2B /* ListViewController.swift */,
+				5582BCEF1CC21A4500E8AE2B /* DetailViewController.swift */,
 			);
 			path = iTunesMusicSearch;
 			sourceTree = "<group>";
@@ -342,6 +351,9 @@
 			files = (
 				E93EC2711CC11F4200B8A64E /* iTunesMusicSearch.m in Sources */,
 				E93EC2421CC11E3300B8A64E /* ViewController.swift in Sources */,
+				5582BCEA1CC1FFF600E8AE2B /* ListViewController.swift in Sources */,
+				5582BCF01CC21A4500E8AE2B /* DetailViewController.swift in Sources */,
+				5582BCEE1CC20D3400E8AE2B /* ListCell.swift in Sources */,
 				E93EC2401CC11E3300B8A64E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
